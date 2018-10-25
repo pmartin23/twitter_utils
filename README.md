@@ -12,8 +12,7 @@ Installation
 The easiest way to install is by using pip/easy_install to pull it from PyPI.
 Note that `twitter_utils` is currently only available as a test version.
 
-   pip install --index-url https://test.pypi.org/simple/ --extra-index-url https://pypi.org/simple twitter_utils
-
+    pip install --index-url https://test.pypi.org/simple/ --extra-index-url https://pypi.org/simple twitter_utils
 
 Usage
 -----
