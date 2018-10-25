@@ -10,7 +10,7 @@ This package currently implements one simple method: `resovle_thread`, that make
 Installation
 ------------
 The easiest way to install is by using pip/easy_install to pull it from PyPI.
- ote that `twitter_utils` is currently only available as a test version.
+Note that `twitter_utils` is currently only available as a test version.
 
     pip install --index-url https://test.pypi.org/simple/ twitter_utils
 
