@@ -1,6 +1,6 @@
 import setuptools
 
-with open("README.md", "r") as fh:
+with open("README.md", "r",encoding='utf-8') as fh:
     long_description = fh.read()
 
 setuptools.setup(
@@ -11,7 +11,7 @@ setuptools.setup(
     description="Tools for retrieving data from Twitter",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/evidence-surveillance/twitter_utils",
+    url="https://github.com/pmartin23/twitter_utils",
     license='MIT',
     packages=setuptools.find_packages(),
     install_requires=[
