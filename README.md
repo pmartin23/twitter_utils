@@ -4,13 +4,15 @@ twitter_utils
 This package currently implements one simple method: `resovle_thread`, that makes use of
 [tweepy](https://github.com/tweepy/tweepy) to follow the thread of replies preceding a specified tweet
  back to the first tweet in the thread, and returns that thread.
+ Creating a package for this was probably unnecessary, but I thought it would be a
+ good learning experience to go through the steps to do so, and who knows - maybe I'll extend it with more functionality in future.
 
 Installation
 ------------
-The easiest way to install the latest version
-is by using pip/easy_install to pull it from PyPI:
+The easiest way to install is by using pip/easy_install to pull it from PyPI.
+ ote that `twitter_utils` is currently only available as a test version.
 
-    pip install twitter_utils
+    pip install --index-url https://test.pypi.org/simple/ twitter_utils
 
 Usage
 -----
