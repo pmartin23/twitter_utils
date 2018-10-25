@@ -1,7 +1,7 @@
 twitter_utils
 =============
 
-This package implements one simple method: `resovle_thread`, that makes use of
+This package currently implements one simple method: `resovle_thread`, that makes use of
 [tweepy](https://github.com/tweepy/tweepy) to follow the thread of replies preceding a specified tweet
  back to the first tweet in the thread, and returns that thread.
 
