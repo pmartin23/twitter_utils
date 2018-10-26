@@ -19,3 +19,5 @@ class TestReplies(TestCase):
         self.assertIsNotNone(replies_3)
         self.assertEqual(replies_3.ids(),
                          [1054895846028963840, 1054894419562913794, 1054893130753957888, 1054887110350721026])
+        replies_4 = resolve_thread(1055201431613894656, config.CONSUMER_KEY, config.CONSUMER_SECRET)
+        self.assertIsNotNone(replies_4)

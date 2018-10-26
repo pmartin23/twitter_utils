@@ -25,7 +25,10 @@ def resolve_thread(start_tid, consumer_key, consumer_secret):
     replies = ResultSet()
     while True:
         result = api.statuses_lookup([prev_id])
-        prev = next(iter(result))
+        try:
+            prev = next(iter(result))
+        except StopIteration:
+            return replies
         replies.append(prev)
         prev_id = prev.in_reply_to_status_id
         if not prev_id:
