@@ -5,7 +5,7 @@ with open("README.md", "r",encoding='utf-8') as fh:
 
 setuptools.setup(
     name="twitter_utils",
-    version="0.0.1",
+    version="0.0.2",
     author="Paige Martin",
     author_email="paige.newman@mq.edu.au",
     description="Tools for retrieving data from Twitter",
