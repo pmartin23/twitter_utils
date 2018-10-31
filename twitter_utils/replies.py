@@ -24,7 +24,7 @@ def resolve_thread(start_tid, consumer_key, consumer_secret):
     prev_id = start_tid
     replies = ResultSet()
     while True:
-        result = api.statuses_lookup([prev_id])
+        result = api.statuses_lookup([prev_id], tweet_mode='extended')
         try:
             prev = next(iter(result))
         except StopIteration:

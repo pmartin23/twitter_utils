@@ -21,3 +21,5 @@ class TestReplies(TestCase):
                          [1054895846028963840, 1054894419562913794, 1054893130753957888, 1054887110350721026])
         replies_4 = resolve_thread(1055201431613894656, config.CONSUMER_KEY, config.CONSUMER_SECRET)
         self.assertIsNotNone(replies_4)
+        for x in replies_4:
+            self.assertTrue(hasattr(x,'full_text'))
